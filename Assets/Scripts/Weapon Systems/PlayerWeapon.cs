@@ -7,7 +7,6 @@ public class PlayerWeapon : MonoBehaviour
 
     //used for determining where to spawn the projectiles when shooting
     [SerializeField] Transform _barrel;
-    //PlayerHelper _playerHelper;
 
     #region Private properties
     private ActiveWeaponData _weaponData;
@@ -28,7 +27,6 @@ public class PlayerWeapon : MonoBehaviour
     private void OnEnable()
     {
         InitializeWeapon();
-        //_playerHelper = GetComponentInParent<PlayerHelper>();
     }
 
 
